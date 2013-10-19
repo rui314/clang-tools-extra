@@ -16,6 +16,9 @@ list(APPEND ClangModernizeSources ${UseNullptrSources})
 file(GLOB_RECURSE UseAutoSources "../UseAuto/*.cpp")
 list(APPEND ClangModernizeSources ${UseAutoSources})
 
+file(GLOB_RECURSE UseRawStringSources "../UseRawString/*.cpp")
+list(APPEND ClangModernizeSources ${UseRawStringSources})
+
 file(GLOB_RECURSE AddOverrideSources "../AddOverride/*.cpp")
 list(APPEND ClangModernizeSources ${AddOverrideSources})
 
